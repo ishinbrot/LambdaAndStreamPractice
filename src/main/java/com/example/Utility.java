@@ -2,6 +2,7 @@ package com.example;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class Utility {
 
@@ -12,7 +13,7 @@ public class Utility {
         Director director3 = new Director("Steven", "Speilberg");
 
 
-        List<Movie> movieList= new ArrayList<>();
+        List<Movie> movieList = new ArrayList<>();
         Movie movie1 = new Movie("Ready Player 1", director3);
         Movie movie2 = new Movie("Dark Knight", director1);
         Movie movie3 = new Movie("The Social Network", director2);
